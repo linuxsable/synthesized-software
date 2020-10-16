@@ -24,13 +24,28 @@
         position: absolute;
         right: 0;
         bottom: 0;
-        border-radius: 5px;
+        animation: woggle 5s infinite;
+        animation-direction: alternate;
+        animation-delay: 0;
       }
 
       p {
         font-size: 0.8em;
         max-width: 500px;
         color: #333;
+        line-height: 20px;
+      }
+
+      @keyframes woggle {
+        0% {
+          transform: translate(0);
+          opacity: 1;
+        }
+
+        100% {
+          transform: translate(0, 25px);
+          opacity: 0.8;
+        }
       }
     </style>
     <link
@@ -41,7 +56,10 @@
   </head>
   <body>
     <header>Synthesized Software</header>
-    <p>We build software to solve problems.</p>
+    <p>
+      We build tools to unfetter individuals' productivity, education, and
+      artistic impulses.
+    </p>
     <footer />
   </body>
 </html>
