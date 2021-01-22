@@ -1,0 +1,22 @@
+body {
+  font-family: "Open Sans", arial, sans-serif;
+  margin: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 66vh;
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
