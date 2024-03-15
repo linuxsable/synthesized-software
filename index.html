@@ -1,71 +1,56 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      html,
-      body {
-        font-family: "Work Sans", sans-serif;
-        background-color: #fecf84;
-        margin: 0;
-        padding: 16px;
-      }
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Synthesized Software</title>
+        <style>
+            html,
+            body {
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                color: #ccc;
+                background-color: #1b1b1b;
+                margin: 0;
+                padding: 30px;
+            }
 
-      body {
-        overflow-y: hidden;
-      }
+            a,
+            a:visited {
+                color: #ccc;
+                /* text-decoration: none;
+                font-weight: 600; */
+            }
 
-      header {
-        color: #000;
-        font-size: 1.4em;
-        font-weight: 400;
-      }
+            h4 {
+                margin-top: 40px;
+            }
 
-      footer {
-        width: 100vw;
-        height: 38.196601vh;
-        background-color: #f85749;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        animation: woggle 5s infinite;
-        animation-direction: alternate;
-        animation-delay: 0;
-      }
+            p {
+                color: #bbb;
+            }
 
-      p {
-        font-size: 0.9em;
-        max-width: 500px;
-        color: #333;
-        line-height: 24px;
-      }
-
-      @keyframes woggle {
-        0% {
-          transform: translate(0);
-          opacity: 1;
-        }
-
-        100% {
-          transform: translate(0, 25px);
-          opacity: 0.8;
-        }
-      }
-    </style>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <title>Synthesized Software</title>
-  </head>
-  <body>
-    <section class="content">
-      <header>Synthesized Software</header>
-      <p>
-        We build tools to unfetter individuals' productivity, education, and
-        artistic impulses.
-      </p>
-    </section>
-    <footer />
-  </body>
+            p > strong {
+                margin-right: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Synthesized Software</h2>
+        <p>
+            <strong>We are... </strong>
+            a software firm founded by
+            <a href="https://tylervh.com">Tyler Van Hoomissen</a> and
+            <a href="https://twitter.com/rsweetland">Reilly Sweetland</a>
+        </p>
+        <p>
+            <strong>We build... </strong>
+            bespoke software for individuals and teams
+        </p>
+    </body>
 </html>
